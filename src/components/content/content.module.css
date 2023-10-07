@@ -1,0 +1,72 @@
+.content {
+  position: relative;
+  left: 20%;
+  width: 78%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    'work_experiences'
+    'education_experiences'
+    'other_experiences';
+  padding-top: 16px;
+  gap: 20px;
+}
+.work_experiences {
+  grid-area: work_experiences;
+}
+.education_experiences {
+  grid-area: education_experiences;
+}
+.other_experiences {
+  grid-area: other_experiences;
+}
+.content_experiences {
+  background: var(--white);
+  padding: 16px;
+  border-radius: 6px;
+}
+.work_experiences_header {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  font-weight: 600;
+}
+.work_experiences_header i {
+  font-size: 16pt;
+  color: var(--green);
+}
+.work_experiences_header span {
+  font-size: 18pt;
+  color: var(--grey);
+}
+.content_experiences_jobs {
+  padding: 16px 8px;
+}
+.content_experiences_jobs_info {
+  padding-top: 20px;
+}
+.content_experiences_jobs_info_header {
+  color: var(--grey);
+  padding-bottom: 8px;
+}
+.content_experiences_jobs_info_icon {
+  color: var(--blue);
+  font-size: 12pt;
+  padding-right: 8px;
+}
+.content_experiences_jobs_info_datefrom {
+  color: var(--grey);
+  font-size: 10pt;
+}
+.content_experiences_jobs_info_current {
+  background: var(--blue);
+  color: var(--white);
+  font-size: 10pt;
+  padding: 4px 2px 1px 2px;
+  border-radius: 6px;
+}
+.content_experiences_jobs_info_text {
+  padding: 10px 0;
+  color: var(--hard-blue);
+}

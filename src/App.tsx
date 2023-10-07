@@ -1,11 +1,12 @@
-import { SideBar } from './components';
+import cls from 'classnames';
+import { Content, SideBar } from './components';
+import styles from './App.module.css';
 
-function App() {
+export const App = () => {
   return (
-    <div>
+    <div className={cls(styles.container)}>
       <SideBar />
+      <Content />
     </div>
   );
-}
-
-export default App;
+};

@@ -1,9 +1,68 @@
 .sidebar {
   position: fixed;
-  width: 320px;
-  height: 640px;
+  width: 18%;
+  height: 100%;
+  background: var(--white);
+  padding: 16px;
+}
+.sidebar_main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.sidebar_main_img {
+  width: 100%;
+  border-radius: 8px;
+}
+.sidebar_main_credentials {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  font-size: 16pt;
+  font-weight: 700;
+}
+.sidebar_main_credentials_name {
+  color: var(--hard-blue);
+}
+.sidebar_main_credentials_position {
+  color: var(--blue);
+  font-size: 12pt;
+  font-weight: 400;
+  margin-top: 8px;
+}
+.sidebar_contacts {
+  padding-top: 26px;
+}
+.sidebar_contacts_properties {
+  display: flex;
+  flex-direction: column;
+  color: var(--grey);
+  gap: 6px;
+}
+.sidebar_contacts_properties_item {
+  font-size: 10pt;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sidebar_skills {
+  padding-top: 26px;
+}
+.sidebar_skills_header {
+  color: var(--hard-blue);
+  font-weight: 700;
+  font-size: 16pt;
+  padding-bottom: 8px;
+}
+.sidebar_skills_tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 4px;
+}
+.sidebar_skills_tag {
+  font-size: 9pt;
+  color: var(--white);
+  background: var(--blue);
+  padding: 3px 6px;
   border-radius: 6px;
-  left: 200px;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
