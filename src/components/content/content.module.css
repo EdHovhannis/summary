@@ -21,6 +21,9 @@
 .other_experiences {
   grid-area: other_experiences;
 }
+.content_experiences_wrapper {
+  /* position: relative; */
+}
 .content_experiences {
   background: var(--white);
   padding: 16px;
@@ -68,5 +71,7 @@
 }
 .content_experiences_jobs_info_text {
   padding: 10px 0;
-  color: var(--hard-blue);
+  color: #828282;
+  white-space: break-spaces;
+  font-size: 10pt;
 }
